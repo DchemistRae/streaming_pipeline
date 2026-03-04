@@ -105,8 +105,8 @@ The application is configured using environment variables, which can be placed i
 2.  **Verify Data in Redpanda Console**
     Open your browser and navigate to `http://localhost:8080`.
     From the left-hand menu, go to the **Topics** page. You should see the `crypto_prices` topic. Click on it to view the live stream of messages being published.
-    
-    [![Screenshot](/screenshots/redpanda.png "Redpanda UI")] 
+
+    ![Screenshot](/screenshots/redpanda.png "Redpanda UI")
 
 3.  **Verify Data in PostgreSQL with pgAdmin**
 
