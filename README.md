@@ -74,7 +74,7 @@ Before you begin, ensure you have the following installed on your system:
     POSTGRES_HOST=db 
     POSTGRES_PORT=5432
     ```
-    > **Note**: Configuring the environment is option, you do not need to provide any configuration and the app will run with default values.
+    > **Note**: Configuring the environment is optional, you do not need to provide any configuration and the app will run with default values.
 
 ## Configuration
 
@@ -186,8 +186,4 @@ A full list of dependencies is available in the `requirements.txt` file.
 ## Contributing
 
 Contributions are welcome! Please open an issue or submit a pull request for any changes.
-
-## License
-
-This project is licensed under the MIT License.
 
