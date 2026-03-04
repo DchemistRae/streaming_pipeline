@@ -1,0 +1,7 @@
+kafka-python-ng
+websocket-client
+confluent-kafka==2.3.0
+quixstreams==2.5.0
+requests==2.31.0
+psycopg2-binary==2.9.9
+websocket-client==1.7.0
