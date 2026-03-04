@@ -1,4 +1,4 @@
-# Streaming Project
+# Cryptocurrency Price Streaming Pipeline
 
 A real-time cryptocurrency price streaming application using Python, Redpanda (a Kafka-compatible streaming platform), and PostgreSQL. All services are containerized and managed with Docker Compose.
 
