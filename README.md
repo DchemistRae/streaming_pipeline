@@ -59,7 +59,7 @@ Before you begin, ensure you have the following installed on your system:
 2.  **OPTIONAL: Configure the environment: (only do these if you require a different set of cryptocurrenciy prices or different configuration)**
     Create a `.env` file in the project root. This file is optional; if it's not present, the application will use the default values from the `docker-compose.yml` file. You can copy and paste the following as a starting point:
     ```bash
-    # .env
+    
     # Redpanda/Kafka Configuration
     KAFKA_BROKER=redpanda-0:9092 # Use 'localhost:19092' to connect from your host machine
     KAFKA_TOPIC=crypto_prices
@@ -176,8 +176,8 @@ The application is configured using environment variables, which can be placed i
 ## Dependencies
 
 The main dependency for this project is:
-- **Quixstreams**: A Python library for stream processing, built on top of `confluent-kafka-python`.
-- **kafka-python-ng**: A Kafka client used by the publisher.
+- **Quixstreams**: A Python library for stream processing, built on the logic of pandas, but for streaming data.
+- **kafka-python-ng**: A Python native library for the Apache Kafka used to publish data to Kafka topic.
 - **psycopg2-binary**: PostgreSQL adapter for Python.
 - **websocket-client**: A WebSocket client for Python to connect to the Binance API.
 
